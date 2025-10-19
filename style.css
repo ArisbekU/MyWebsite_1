@@ -1,0 +1,129 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: #1F2937;
+}
+.logo{
+    margin-right: auto;
+    margin-left: 150px;
+    border-radius: 80%;
+    width: 100px;
+    height: auto;
+}
+.social-network{
+    display: flex;
+    margin-left: auto;
+    padding-right: 100px;
+    gap: 30px;
+}
+.socials{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+.hat{
+    display: flex;
+}
+.main{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.sign-up-button{
+    width: 200px;
+    height: 36px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.headimage{
+    width: 300px;
+    height: auto;
+}
+h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    
+}
+#p-in-main{
+    color: #F9FAF8;
+    font-size: 18px;
+}
+h2{
+    text-align: center;
+    font-size: 36 px;
+}
+.cards{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fact-image{
+    width: 150px;
+    height: auto;
+    border: 3px solid #3882f6;
+    border-radius: 10%;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+}
+.quote p{
+    margin: 0;
+}
+#author{
+    margin-left: auto;
+    margin-right: 20vw;
+    font-weight: 900;
+}
+.bluebox{
+    height: 100px;
+    margin: 50px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.bluebox p{
+    color: #F9FAF8;
+    font-size: 18px;
+}
+.bluebox button{
+    width: 150px;
+    height: 30px;
+    border: 2px solid white;
+    cursor: pointer;
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.bottom{
+    display: flex;
+    background-color: #1F2937;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    color:#F9FAF8;
+}
